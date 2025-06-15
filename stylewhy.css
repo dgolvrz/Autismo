@@ -1,0 +1,44 @@
+/* Resetando margens e padding para garantir consistência */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Definindo o estilo para o corpo */
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  /* Container centralizado */
+  .container {
+    display: flex;
+    gap: 20px; /* Espaço entre as divs */
+  }
+  
+  /* Estilo para as divs com imagem e texto */
+  .box {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .box img {
+    max-width: 100%; /* Ajusta a imagem ao tamanho da div */
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .box p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
